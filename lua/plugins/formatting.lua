@@ -22,7 +22,7 @@ return {
 			},
 			format_on_save = {
 				lsp_fallback = true, -- 포맷터가 없으면 LSP 사용
-				async = true,
+				format_on_save = true,
 				timeout_ms = 5000, -- 5000ms 내에 완료 안 되면 포기 (멈춤 방지)
 			},
 		})
